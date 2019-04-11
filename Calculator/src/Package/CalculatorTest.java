@@ -80,7 +80,7 @@ class CalculatorTest {
 	
 	void addString_shouldNotBeConsideredNegativeNumbers_correctResult() {
 		int expected = 3;
-		int actual = Calculator.addString("-2,3");
+		int actual = Calculator.addString("-1,3");
 		assertEquals(expected, actual);
 	}
 
